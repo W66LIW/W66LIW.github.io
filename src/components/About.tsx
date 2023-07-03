@@ -8,7 +8,9 @@ export default function About(){
     return(
         <div className="Block">
             <h2>{text.about[lang]}</h2>
-            <p>{text.about_description[lang]}</p>
+            <p>{text.about_description_1[lang]}</p>
+            <p>{text.about_description_2[lang]}</p>
+            <p>{text.about_description_3[lang]}</p>
         </div>
     )
 }
