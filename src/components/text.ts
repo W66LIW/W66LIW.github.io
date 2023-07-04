@@ -1,10 +1,10 @@
-interface text {
+interface Itext {
     [key: string]: {
         [key: string]: string
     }
 }
 
-export const text: text = {
+export const text: Itext = {
     'name': {
         'ru': 'Mээрим Арт',
         'eng': 'Meerim Art'

@@ -5,7 +5,7 @@ import LangSlice from "./redusers/LangSlice";
 
 
 const rootReduser = combineReducers({
-    LangSlice
+    LangSlice,
 })
 
 export const setupStore = () => {

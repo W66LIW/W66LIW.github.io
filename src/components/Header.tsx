@@ -13,7 +13,7 @@ export default function Header(){
         <div id='header'>
             <div className="Block">
                 <header>
-                    <img src='photo2.png' alt='Photo'/>
+                    <img src='photo2.png' alt='My photo'/>
                     <h2>{text.name[lang]}</h2>
                     <p>JavaScript {text.position[lang]}</p>                
                 </header>
