@@ -34,8 +34,16 @@ export const text: Itext = {
         'eng': 'Payment accounting table'
     },
     'table_description': {
-        'ru': 'Таблица для учета оплат физ. лицам за аренду недвижмости. Можно добавить данные новых физ. лиц и редактировать их. При добавлении следующего месяца, данные об оплатах заполняются автоматически (только по активным договорам).',
-        'eng': 'Table for recording payments to individuals for renting real estate. You can add data for new individuals and edit it. When adding the next month, payment data is filled in automatically (only for active contracts).'
+        'ru': 'Таблица для учета оплат физ. лицам за аренду недвижмости. Можно добавлять и удалять физ. лиц. Они автоматически сортируются по статусу договора и по алфавиту. Месяцы добавляются по выпадающему списку и располагаются в таблице в обратном порядке.',
+        'eng': 'Table for recording payments for physical. persons for renting real estate. You can add and remove physical persons. They are automatically sorted by contract status and alphabetically. Months are added from the drop-down list and placed in the table in reverse order.'
+    },
+    'table_description2': {
+        'ru': 'Статус договора меняется по двойному нажатию(✓ - активен, ✕ - неактивен). При добавлении следующего месяца, данные об оплатах заполняются автоматически в соответствии с суммой по договору (только по активным договорам). Каждую сумму можно редактировать по двойному нажатию. В последней строке содержатся суммы по каждому месяцу.',
+        'eng': 'The contract status changes by double clicking (✓ - active, ✕ - inactive). When adding the next month, payment data is filled in automatically in accordance with the amount under the contract (only for active contracts). Each amount can be edited by double clicking. The last row contains the amounts for each month.'
+    },
+    'project':{
+        'ru':'Проект',
+        'eng':'Project'
     },
     'experience': {
         'ru': 'Опыт',
@@ -46,12 +54,12 @@ export const text: Itext = {
         'eng': 'Frontend developer'
     },
     'dev_exp_description': {
-        'ru': 'Самостоятельное обучение при помощи сайтов, видеоуроков, учебников. Выполнение проектов на JavaScript (React)',
-        'eng': 'Self-learning with the help of websites, video tutorials, textbooks. Running JavaScript Projects (React)'    
+        'ru': '',
+        'eng': ''    
     },
     'accountant':{
-        'ru': 'Бухгалтер',
-        'eng': 'Accountant'
+        'ru': '',
+        'eng': ''
     },
     'rhi': {
         'ru': 'ООО Ренейссанс Хэви Индастрис, г. Москва',
@@ -62,8 +70,8 @@ export const text: Itext = {
         'eng': 'Responsibilities :'
     },
     'acc_exp_description': {
-        'ru': 'Учет заработной платы и учет взаиморасчетов с поставщиками в программе 1с и Excel.',
-        'eng': 'Payroll accounting and accounting of mutual settlements with suppliers in the program 1c and Excel'
+        'ru': '',
+        'eng': ''
     },
     'education': {
         'ru': 'Образование',
@@ -82,16 +90,16 @@ export const text: Itext = {
         'eng': 'About'
     },
     'about_description_1': {
-        'ru': 'По професси бухгалтер работала больше двух лет в международной строительной компании. В обязанности входили: учет расчетов с поставщиками, непосредственное общение с ними и документооборот, а также учет заработной платы.',
-        'eng': 'I worked as an accountant for more than two years in an international construction company. Responsibilities included: accounting for settlements with suppliers, direct communication with them and document flow. As well as payroll.'
+        'ru': '',
+        'eng': ''
     },
     'about_description_2': {
-        'ru': 'Язык JavaScript, библиотеку React и т. д. изучала самостоятельно с помощью: Learn javascript, Freecodecamp, видео уроков и статей',
-        'eng': 'I studied JavaScript language, React library, etc. on my own with the help of: Learn javascript, Freecodecamp, video tutorials and articles.'
+        'ru': '',
+        'eng': ''
     },
     'about_description_3': {
-        'ru': 'На данный момент не работаю, продолжаю активно изучать новые технологии для фронтэнд разработки на JavaScript',
-        'eng': 'At the moment I am not working, I continue to actively study new technologies for front-end development in JavaScript.'
+        'ru': '',
+        'eng': ''
     },
     
 }

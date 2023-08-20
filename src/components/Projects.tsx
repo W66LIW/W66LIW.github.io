@@ -12,10 +12,12 @@ export default function Projects() {
                 <div >
                     <h4><a href="https://github.com/W66LIW/one/tree/webpack/table">{text.table[lang]}</a></h4>
                     <p>{text.table_description[lang]}</p>
+                    <p>{text.table_description2[lang]}</p>
                 </div>
-                {/* <div>
-                     <h4><a href="">2</a></h4> 
-                </div> */}
+                <div >
+                    <h4><a href="/project">{text.project[lang]}</a></h4>
+                    <p>В работе</p>
+                </div>
             </div>
         </div>
     )

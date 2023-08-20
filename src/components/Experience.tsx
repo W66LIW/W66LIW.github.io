@@ -11,10 +11,9 @@ export default function Experience(){
             <h3>{text.developer[lang]}</h3>
             <p>{text.dev_exp_description[lang]}</p>
 
-            <h3>{text.accountant[lang]}</h3>
+            
             <p><a href='https://rhi.ronesans.com/?lang=en'>{text.rhi[lang]}</a>
-                <h6>{text.responsibilities[lang]}</h6>
-                <p>{text.acc_exp_description[lang]}</p>
+                
             </p>
         </div>
     )

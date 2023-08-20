@@ -3,8 +3,8 @@ import {text} from './text'
 import { useAppSelector } from '../hooks/redux';
 
 const leter = 'https://mail.google.com/mail/u/1/#inbox?compose=CllgCKCHVNCQRfCcDNrZfwQzXXFDSWwTTmGzzlbfXMqVklGXbMRprfnJvPRhnzBtvmVvHrXdCKL';
-const cv_pdf = 'https://drive.google.com/file/d/1-VShJ-7C5hf05us5WVvfIIh4ZzxubDVh/view?usp=sharing';
-    
+const cv_pdf = "";
+
 export default function Header(){
     const state: any = useAppSelector(state => state.LangSlice);
     const lang: string = state.value
@@ -13,7 +13,7 @@ export default function Header(){
         <div id='header'>
             <div className="Block">
                 <header>
-                    <img src='photo2.png' alt='My photo'/>
+                    <img src='photo2.jpg' alt='My photo'/>
                     <h2>{text.name[lang]}</h2>
                     <p>JavaScript {text.position[lang]}</p>                
                 </header>

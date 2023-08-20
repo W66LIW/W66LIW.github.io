@@ -205,9 +205,11 @@ button:hover {
 .Projects div{
   display: flex;
   flex-direction: column;  
+  margin: -40px;
+  height: 55vh;
   width: 100%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .Projects p {
