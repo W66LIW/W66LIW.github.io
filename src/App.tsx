@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <LangButton/>
         <Header/>
-        <About/>
+        {/* <About/> */}
         <Skills/>
         <Projects/>
         <Experience/>

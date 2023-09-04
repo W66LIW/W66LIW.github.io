@@ -22,7 +22,7 @@ export default function Header(){
                     <li className='prefer'><img src='phone.png' alt="phone logo" />+7(916)818-58-21</li>
                     <li><img src='gmail2.png' alt="gmail logo" /><a href={leter}>meerim.art.b@gmail.com</a></li>
                     <li className='prefer'> <img src='tg.png' alt="telegram logo" /><a href="https://web.telegram.org/k/#@W66LIW">@W66LIW</a></li>
-                    <li><img src='cv-icon2.png' alt="cv logo" /><a href={cv_pdf}>{text.pdfCV[lang]}</a></li>
+                    {/* <li><img src='cv-icon2.png' alt="cv logo" /><a href={cv_pdf}>{text.pdfCV[lang]}</a></li> */}
                 </ul>
             </div>
         </div>

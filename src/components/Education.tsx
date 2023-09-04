@@ -11,14 +11,8 @@ export default function Education() {
             <h6>{text.auditor[lang]}</h6>
             <p className="Education">
                 <span>{text.mfua[lang]}</span>
-                <span>2025</span>
+                <span>2024</span>
             </p>
-            <h6>{text.accountant[lang]}</h6>   
-            <p className="Education">
-                <span>{text.mfua[lang]}</span>
-                <span>2020</span>
-            </p>
-
 
         </div>
     )

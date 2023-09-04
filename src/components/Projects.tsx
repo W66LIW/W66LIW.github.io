@@ -15,9 +15,20 @@ export default function Projects() {
                     <p>{text.table_description2[lang]}</p>
                 </div>
                 <div >
+                    <h4><a href="https://github.com/W66LIW/slider">{text.slider[lang]}</a></h4>
+                    <p>{text.test_in_chrome[lang]}</p>
+                    <ul>
+                        <li>{text.about_slider_0[lang]}</li>
+                        <li>{text.about_slider_1[lang]}</li>
+                        <li>{text.about_slider_2[lang]}</li>
+                        <li>{text.about_slider_3[lang]}</li>
+                    </ul>
+                    
+                </div>
+                {/* <div >
                     <h4><a href="/project">{text.project[lang]}</a></h4>
                     <p>В работе</p>
-                </div>
+                </div> */}
             </div>
         </div>
     )

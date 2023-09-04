@@ -8,8 +8,6 @@ import redux_logo from '../icons8-redux.svg'
 import webpuck from '../icons8-webpack.svg'
 import {text} from './text'
 import { useAppSelector } from '../hooks/redux';
-// import { langSlice } from '../store/redusers/LangSlice';
-// import { json } from 'stream/consumers';
 
 export default function Skills() {
     const state: any = useAppSelector(state => state.LangSlice);
