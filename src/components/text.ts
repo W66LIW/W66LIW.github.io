@@ -66,40 +66,40 @@ export const text: Itext = {
         'eng':'Clicking on the "подробнее" button on the third slide opens a modal window'
     },
     'experience': {
-        'ru': 'Опыт',
-        'eng': 'Experience'
+        'ru': '',
+        'eng': ''
     },
     'developer': {
-        'ru': 'Фронтэнд разработчик',
-        'eng': 'Frontend developer'
+        'ru': '',
+        'eng': ''
     },
     'dev_exp_description': {
-        'ru': 'Разработка систем отслеживания и согласования внутренних процессов организации',
-        'eng': 'Development of systems for tracking and coordinating the internal processes of the company'    
+        'ru': '',
+        'eng': ''    
     },
     'dev_exp_0': {
-        'ru': 'Верстка и доработка элементов интерфейса (HTML, CSS, SASS(SCSS), Tailwind)',
-        'eng': 'Layout and refinement of interface elements (HTML, CSS, SASS(SCSS), Tailwind)'    
+        'ru': '',
+        'eng': ''    
     },
     'dev_exp_1': {
-        'ru': 'Разработка логики поведения элементов и компонентов приложения (JavaScript, React)',
-        'eng': 'Development of logic for the behavior of application elements and components (JavaScript, React)'    
+        'ru': '',
+        'eng': ''    
     },
     'dev_exp_2': {
-        'ru': 'Работа со стейт-менеджером (Redux)',
-        'eng': 'Working with the state manager (Redux)'    
+        'ru': '',
+        'eng': ''    
     },
     'dev_exp_3': {
-        'ru': 'Обработка обратной связи от пользователей',
-        'eng': 'Processing feedback from users'    
+        'ru': '',
+        'eng': 'P'    
     },
     'dev_exp_4': {
-        'ru': 'Исправление багов',
-        'eng': 'Bug fixes'    
+        'ru': '',
+        'eng': ''    
     },
     'dev_exp_5': {
-        'ru': 'Рефакторинг чужого кода',
-        'eng': 'Refactoring code'    
+        'ru': '',
+        'eng': ''    
     },
     'rhi': {
         'ru': 'ООО Ренейссанс Хэви Индастрис, г. Москва',
@@ -130,16 +130,24 @@ export const text: Itext = {
         'eng': 'About'
     },
     'about_description_1': {
-        'ru': '',
-        'eng': ''
+        'ru': 'По образованию аудитор. Разработкой заинтересовалась в то время, когда работала бухгалтером в строительной компании. Попала на отборочный этап Школы 21 от Сбербанк (кодинг на языке С в течение месяца), но не прошла на обучение.',
+        'eng': 'An auditor by training. I became interested in development while working as an accountant in a construction company. I got to the qualifying stage of School 21 from Sberbank (coding in C for a month), but did not qualify for training.'
     },
     'about_description_2': {
-        'ru': '',
-        'eng': ''
+        'ru': 'Изначально выбрала JavaScript так как он и в целом фронтенд считался более легким вариантом. Но походу обучения он мне понравился и я узнала о Node JS, React, Redux и тд.',
+        'eng': 'Initially I chose JavaScript because it and frontend in general were considered an easier option. But during the learning process I liked it and I learned about Node JS, React, Redux, etc.'
     },
     'about_description_3': {
-        'ru': '',
-        'eng': ''
+        'ru': 'Осваивала все сама по документациям, обучающим видео и сайтам:',
+        'eng': 'I learned everything myself using documentation, training videos and websites:'
+    },
+    'about_description_3_1': {
+        'ru': 'и тд.',
+        'eng': 'etc.'
+    },
+    'about_description_4': {
+        'ru': 'На данный момент изучаю TypeScript и библиотеку D3 для построения инфографики',
+        'eng': 'Currently studying TypeScript and the D3 library for building infographics'
     },
     
 }

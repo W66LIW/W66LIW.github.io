@@ -10,12 +10,12 @@ export default function Projects() {
             <h2>{text.projects[lang]}</h2>
             <div className='Projects'>
                 <div >
-                    <h4><a href="https://github.com/W66LIW/one/tree/webpack/table">{text.table[lang]}</a></h4>
+                    <h4><a target='_blank' rel="noreferrer" href="https://github.com/W66LIW/one/tree/webpack/table">{text.table[lang]}</a></h4>
                     <p>{text.table_description[lang]}</p>
                     <p>{text.table_description2[lang]}</p>
                 </div>
                 <div >
-                    <h4><a href="https://github.com/W66LIW/slider">{text.slider[lang]}</a></h4>
+                    <h4><a target='_blank' rel="noreferrer" href="https://github.com/W66LIW/slider">{text.slider[lang]}</a></h4>
                     <p>{text.test_in_chrome[lang]}</p>
                     <ul>
                         <li>{text.about_slider_0[lang]}</li>

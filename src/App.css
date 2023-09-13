@@ -136,6 +136,10 @@ button:hover {
   list-style-type: none;
 }
 
+[alt] {
+  font-size: small;
+}
+
 .Block div{
   display: flex;
   justify-content: center;
@@ -190,8 +194,15 @@ button:hover {
   width: 17px;
   border: 0px;
   padding: 0px;
-  margin: 3px 7px 2px 10px;
+  margin: 0px 7px -3px 10px;
 }
+
+
+.Block ul .GitHub img {
+  width: 20px;
+  height: 20px;
+}
+
 
 .Block .Projects {
   display: flex;
@@ -254,5 +265,25 @@ button:hover {
   to {
     transform: rotate(360deg);
   }
+}
+
+.About div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 65%;
+  font-size:larger;
+}
+
+.About ul {
+  font-size:larger;
+  line-height: 26px;
+  list-style-type: "-";
+}
+
+.About ul li{
+  padding-left: 5px;
+  font-size: 0.8em;
 }
 

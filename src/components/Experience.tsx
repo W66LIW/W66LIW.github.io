@@ -10,15 +10,6 @@ export default function Experience(){
             <h2>{text.experience[lang]}</h2>
             <h3>{text.developer[lang]}</h3>
             <div className="Dev-experience">
-                <p>{text.dev_exp_description[lang]}</p>
-                <ul>
-                    <li>{text.dev_exp_0[lang]}</li>
-                    <li>{text.dev_exp_1[lang]}</li>
-                    <li>{text.dev_exp_2[lang]}</li>
-                    <li>{text.dev_exp_3[lang]}</li>
-                    <li>{text.dev_exp_4[lang]}</li>
-                    <li>{text.dev_exp_5[lang]}</li>
-                </ul>
             </div>           
             <a href='https://rhi.ronesans.com/?lang=en'>{text.rhi[lang]}</a>
         </div>
